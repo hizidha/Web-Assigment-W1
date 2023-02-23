@@ -1,0 +1,133 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-transform: capitalize;
+}
+
+section {
+    padding: 0 2vw;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    border-radius: 0.65vw;
+    padding: 0.65vw 1.5vw;
+}
+
+.navbar {
+    padding: 1.15vw 7.5vw 0.75vw 5vw;
+    background-color: rgb(242, 199, 68);
+}
+
+.navbar-brand {
+    padding-bottom: 0.5vw;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.nav-item>a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: 490;
+}
+
+.container-fluid {
+    padding-bottom: 0;
+}
+
+#home {
+    padding-top: 1.5vw;
+    width: 100%;
+    height: 88vh;
+    color: white;
+    background-image: linear-gradient(180deg, rgb(242, 199, 68) 25%, white 100%);
+    background-size: cover;
+    display: inline-flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.btn-a {
+    color: white;
+}
+
+.btn-1 {
+    background-color: rgb(242, 199, 68);
+    border: 0.21vw solid white;
+    cursor: pointer;
+}
+
+.btn-1:hover, .btn-a:hover {
+    color:rgb(242, 199, 68);
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: white;
+    border: 0.21vw solid rgb(242, 199, 68);
+}
+
+.section-title h2>a {
+    color: white;
+    font-weight: 500;
+    font-size: 2.25vw;
+    padding-bottom: 1.4vw;
+    text-align: center; 
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.section-title h2>a:hover {
+    color: #444444;
+}
+
+.section-title {
+    margin-bottom: 2.5vw;
+}
+
+.section-title h2>a::after {
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    bottom: 0;
+    left: calc(50% - 37.5px);
+    background: rgb(58, 58, 58);
+  }
+
+object {
+    margin-top: 1.2vw;
+}
+
+h6 {
+    margin-top: 2.35vw;
+}
+
+a, h6 {
+    font-size: 1vw;
+    color: rgb(242, 199, 68);
+}
+
+h5, a:hover {
+    color: #444444;
+}
+
+h5 {
+    font-size: 1vw;
+    margin-top: 1.55vw;
+}
+
+object {
+    border-radius: 1vw;
+    border: 1px solid white;
+    box-shadow: 1vw solid gray;
+}
+

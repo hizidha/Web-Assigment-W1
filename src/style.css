@@ -1,0 +1,238 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+section {
+    padding: 0 8.5vw;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    border-radius: 0.65vw;
+    padding: 0.65vw 1.5vw;
+}
+
+.header {
+    position: fixed top;
+}
+
+.navbar {
+    padding: 1.1vw 5vw 0.7vw 5vw;
+    background-color: rgb(242, 199, 68);
+}
+
+.navbar-brand {
+    padding-bottom: 0.5vw;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.nav-item>a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: 490;
+}
+
+.container-fluid {
+    padding-bottom: 0;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: rgb(242, 199, 68);
+    background-size: cover;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10vw;
+    padding-top: 5vw;
+}
+
+#home h1 {
+    font-size: 3.8vw;
+    font-weight: 600;
+    padding: 0;
+    margin-bottom: 0.8vw;
+}
+
+#home h5 {
+    color: rgb(58, 58, 58);
+    font-size: 1.25vw;
+    font-weight: 550;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    padding-top: 3.5vw;
+    margin-bottom: 2vw;
+}
+
+.btn-a {
+    color: white;
+}
+
+.btn-1 {
+    margin-right: 1vw;
+}
+
+.btn-1, .btn-2 {
+    background-color: rgb(242, 199, 68);
+    border: 0.21vw solid white;
+    cursor: pointer;
+}
+
+.btn-1:hover, .btn-a:hover, .btn-2:hover {
+    color:rgb(242, 199, 68);
+    cursor: pointer;
+}
+
+.btn-1:hover, .btn-2:hover {
+    background-color: white;
+    border: 0.21vw solid rgb(242, 199, 68);
+}
+
+.img-hed {
+    width: auto;
+    height: 25vw;
+    border-radius: 0.8vw;
+}
+
+#about, #exps {
+    padding: 12vw 10.7vw 5vw 10.7vw;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#about {
+    background-image: linear-gradient(180deg, rgb(242, 199, 68) 50%, white 100%);
+}
+
+#exps {
+    background-color: white;
+}
+
+.section-title h2 {
+    font-weight: 500;
+    font-size: 2.5vw;
+    padding-bottom: 1.4vw;
+    text-align: center; 
+    position: relative;
+    text-transform: uppercase;
+}
+
+#about .section-title>h2 {
+    color: white;
+}
+
+#exps .section-title>h2 {
+    color: rgb(242, 199, 68);
+}
+
+.section-title>h2::after {
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    bottom: 0;
+    left: calc(50% - 37.5px);
+    background: rgb(58, 58, 58);
+  }
+
+.section-title>p {
+    margin-top: 2.5vw;
+    color: rgb(58, 58, 58);
+    text-align: justify;
+}
+
+.section-title {
+    margin-bottom: 2.5vw;
+}
+
+.con-h4 {
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.con-h5 {
+    font-size: 1.15vw;
+    color: black;
+}
+
+.desc-p {
+    font-size: 1.1vw;
+    color: rgb(58, 58, 58);
+    margin-bottom: 0;
+}
+
+.accordion-button {
+    color: rgb(242, 199, 68);
+    font-weight: bold;
+    padding: 1.5vw 1.75vw 0 1.25vw;
+}
+
+.accordion-button .title-acc {
+    font-size: 17px;
+}
+  
+.accordion-button .title-acc>span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #444444;
+    padding: 0;
+    margin: 0;
+}
+  
+.tgl-experience {
+    margin: 1vw 0 0.25vw 0;
+    font-size: 14px;
+    font-weight: 200;
+    color: #6b705c;
+}
+
+.accordion-body {
+    font-weight: 200;
+    text-align: justify;
+    padding-right: 3.5vw;
+}
+
+.accordion {
+    padding-bottom: 3vw;
+}
+
+#footer:before {
+    height: 1000px;
+}
+
+#footer {
+    margin-top: 17vw;
+    padding: 1.25vw 0;
+    color: #fff;
+    font-size: 14px;
+    background-image: linear-gradient(180deg, white 0%, rgb(242, 199, 68) 40%);
+    background-size: cover;
+}
+
+#footer h6 {
+    margin-top: 2.5vw;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: #444444;
+}
